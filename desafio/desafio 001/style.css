@@ -1,0 +1,12 @@
+body{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+}
+p{
+    text-align: justify;
+    font-size: 1.0em;
+}

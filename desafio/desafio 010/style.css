@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+body{
+    background-color: #61b876;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+header#cabecalho{
+margin: -8px;
+padding: 40px;
+background-image: linear-gradient(120deg, #033511b2, rgba(66, 119, 66, 0.514));
+color: white;
+}
+header#cabecalho >h1, p{
+text-align: center;
+}
+nav{
+text-align:left;
+}
+nav >a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: justify;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 8px 70px 65px 70px;
+}
+iframe{
+    width: 600px;
+    height: 300px
+}
+img{
+    padding: auto;   
+}
+aside#video{
+padding: 10px;
+background-color: #294725;
+}
+footer{
+    background-color: #294725;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    font-family: 'idroid';
+    color: #0e6902;
+}
+h2{
+    background-image: linear-gradient(90deg, #93ec93c0, #ffffffbd);
+    font-family: 'idroid';
+    color: #0e6902;
+}
+h1.titulo{
+    font-family: monospace;
+    font-size: 42px;
+    color: white;
+}
+header >p{
+    text-align: center;
+}
+h1.rodape{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1.curiosidade{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: rgb(64, 107, 64);
+    color: white;
+}
