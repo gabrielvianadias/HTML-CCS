@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Designer', Arial, Helvetica, sans-serif;
+    src: url(fonts/Designer.otf);
+}
+@font-face {
+    font-family:'Bebas Neue', 'regular', sans-serif;
+    src: url(fonts/BebasNeue-Regular.otf);
+}
+@font-face {
+    font-family: 'Creato Display', sans-serif;
+    src: url(fonts/CreatoDisplay-Regular.otf);
+}
+
+/*cor e fonte decidas para trabalhar*/
+/*Fonte Designer = Titulo
+Fonte Bebas Neue = Subtitulo
+Fonte Creato Display = paragrafos*/
+:root{
+    --cor001:#84cfdc;
+    --cor002:#87A3A8;
+    --cor003:#5E7275;
+    --cor004:#283E42;
+    --cor005:#142E33;
+    --fonte001:'Designer' Arial, Helvetica, sans-serif;
+    --fonte002:'Bebas Neue' 'regular', sans-serif;
+    --fonte003:'Creato Display' sans-serif;
+}
+
+
+
+body{
+    background-color:var(--cor004);
+    min-width: 330px;
+
+}
+
+header{
+    height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor001), var(--cor004));
+    min-width: 370px;
+    margin: -30px -8px 10px -8px;
+}
+header >h1{
+    font-family: var(--fonte001);
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+    text-shadow: 2px 3px 5px black;
+    padding: 50px;
+    
+}
+nav{
+    background-color: var(--cor004);
+    font-family: var(--fonte002);
+    font-size: 1em;
+    padding: 10px;
+    min-width: 350px;
+    text-align: left;
+}
+nav >a{
+    font-family: var(--fonte002);
+    color: var(--cor001);
+    text-decoration: none;
+    padding: 8px;
+    margin: 0px 4px 2px 20px;
+}
+nav >a:hover{
+    color: black;
+    text-decoration: solid;
+    transition: 1.5s;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 30px 0px 30px;
+    height: 1500px;
+    border-radius: 5px;
+    border-color: black;
+    min-width: 350px;
+}
+img{
+    width: 100%;
+    height: 20%;
+}
+section{
+    padding: 10px;
+    height: 900px;
+    background-color: var(--cor001);
+    min-width: 350px;
+    min-height: 350px;
+}
+
+section > h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.minizinha,
+.point{
+    width: 500px;
+    max-width: 100%;
+    min-width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.575);
+}
+.minizinha,
+.point >p{
+    text-align: center;
+    color: rgb(5, 71, 71);
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
